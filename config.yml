@@ -1,0 +1,150 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_dotfiles: yes
+configure_terminal: yes
+configure_osx: yes
+
+configure_sudoers: no
+sudoers_custom_config: ''
+# Example:
+# sudoers_custom_config: |
+#   # Allow users in admin group to use sudo with no password.
+#   %admin ALL=(ALL) NOPASSWD: ALL
+
+dotfiles_repo: https://github.com/mo6020/dotfiles.git
+dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_local_destination: ~/Repositories/Dotfiles
+dotfiles_files:
+  - .osx
+  - .tmux.conf
+  - .vimrc
+  - .zshrc
+  - bullet-train.zsh-theme
+  - Tomorrow-Night-Eighties.vim
+  - Tomorrow-Night-Eighties.itermcolors
+  - nord.vim
+  - Nord.itermcolors
+
+homebrew_installed_packages:
+  - ansible
+  - azure-cli
+  - bat
+  - chrome-cli
+  - findutils
+  - fio 
+  - git 
+  - gnupg
+  - gnutls
+  - go 
+  - google-cloud-sdk
+  - jq
+  - irssi
+  - httpie
+  - htop
+  - mas
+  - zsh
+  - zsh-completions
+  - zsh-syntax-highlighting
+  - pip
+  - git-flow
+  - wget
+  - tmux
+  - reattach-to-user-namespace
+  - ruby
+  - nvm
+  - python
+  - npm
+  - vim
+  - terraform
+  - vault
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+  - homebrew/cask-drivers
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - ableton-live-lite
+  - adobe-creative-cloud
+  - android-file-transfer
+  - bartender
+  - bettertouchtool
+  - corsair-icue
+  - dashlane
+  - discord
+  - disk-inventory-x
+  - docker
+  - docker-toolbox
+  - drivethrurpg
+  - dropbox
+  - evernote
+  - flux
+  - focusrite-control
+  - fujifilm-x-webcam
+  - google-chrome
+  - google-drive-file-stream
+  - gpg-suite
+  - iterm2
+  - macdown
+  - macvim
+  - onyx
+  - qobuz
+  - protonvpn
+  - roon
+  - simplenote
+  - slack
+  - spectacle 
+  - the-unarchiver
+  - transmit
+  - transmission
+  - tuxera-ntfs
+  - unetbootin
+  - vagrant
+  - vagrant-manager
+  - virtualbox
+  - visual-studio-code
+  - vlc
+  - vmware-fusion
+  - whatsapp
+  - zoomus
+
+# See `geerlingguy.mas` role documentation for usage instructions.
+
+mas_installed_apps:
+  - { id: 1295203466, name: "Microsoft Remote Desktop" }
+  - { id: 913724705, name: "Disk Care" }
+  - { id: 1464122853, name: "NextDNS" }
+  - { id: 568494494, name: "Pocket" }
+  - { id: 1091189122, name: "Bear" }
+  - { id: 1384080005, name: "Tweetbot" }
+  - { id: 1508343025, name: "Mimir" }
+
+osx_script: "~/.osx --no-restart"
+
+# Install packages from other package managers.
+# Note: You are responsible for making sure the required package managers are
+# installed, eg. through homebrew.
+composer_packages: []
+  # - name: drush
+  #   state: present # present/absent, default: present
+  #   version: "^8.1" # default: N/A
+gem_packages: []
+  # - name: bundler
+  #   state: present # present/absent/latest, default: present
+  #   version: "~> 1.15.1" # default: N/A
+npm_packages: []
+  # - name: webpack
+  #   state: present # present/absent/latest, default: present
+  #   version: "^2.6" # default: N/A
+pip_packages:
+  - name: powerline-status
+  - name: powerline-gitstatus
+  - name: rubrik_cdm
+  # - name: mkdocs
+  #   state: present # present/absent/latest, default: present
+  #   version: "0.16.3" # default: N/A
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
