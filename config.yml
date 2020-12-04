@@ -110,6 +110,7 @@ homebrew_cask_apps:
   - vlc
   - vmware-fusion
   - whatsapp
+  - xmind
   - zoomus
 
 # See `geerlingguy.mas` role documentation for usage instructions.
