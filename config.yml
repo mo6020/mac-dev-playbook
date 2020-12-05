@@ -31,6 +31,7 @@ homebrew_installed_packages:
   - azure-cli
   - bat
   - chrome-cli
+  - coreutils
   - findutils
   - fio 
   - git 
