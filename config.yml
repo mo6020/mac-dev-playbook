@@ -71,6 +71,7 @@ homebrew_cask_apps:
   - adobe-creative-cloud
   - android-file-transfer
   - aerial
+  - balenaetcher
   - bartender
   - bettertouchtool
   - corsair-icue
@@ -103,7 +104,6 @@ homebrew_cask_apps:
   - transmit
   - transmission
   - tuxera-ntfs
-  - unetbootin
   - vagrant
   - vagrant-manager
   - virtualbox
