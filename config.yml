@@ -111,7 +111,6 @@ homebrew_cask_apps:
   - vlc
   - vmware-fusion
   - whatsapp
-  - xmind
   - zoomus
 
 # See `geerlingguy.mas` role documentation for usage instructions.
@@ -124,6 +123,7 @@ mas_installed_apps:
   - { id: 1091189122, name: "Bear" }
   - { id: 1384080005, name: "Tweetbot" }
   - { id: 1508343025, name: "Mimir" }
+  - { id: 1289197285, name: "MindNode – Mind Map" }
 
 osx_script: "~/.osx --no-restart"
 
