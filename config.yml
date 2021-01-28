@@ -59,6 +59,7 @@ homebrew_installed_packages:
   - vim
   - terraform
   - vault
+  - wget
 
 homebrew_taps:
   - homebrew/core
@@ -74,6 +75,7 @@ homebrew_cask_apps:
   - balenaetcher
   - bartender
   - bettertouchtool
+  - brave-browser
   - corsair-icue
   - dashlane
   - discord
