@@ -41,7 +41,6 @@ homebrew_installed_packages:
   - go 
   - google-cloud-sdk
   - jq
-  - irssi
   - httpie
   - htop
   - mas
@@ -113,6 +112,7 @@ mas_installed_apps:
   - { id: 1464122853, name: "NextDNS" }
   - { id: 1091189122, name: "Bear" }
   - { id: 1508343025, name: "Mimir" }
+  - { id: 634148309, name: "Logic Pro"}
 
 osx_script: "~/.osx --no-restart"
 
