@@ -68,21 +68,18 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - ableton-live-lite
   - adobe-creative-cloud
   - android-file-transfer
   - aerial
   - balenaetcher
   - bartender
   - bettertouchtool
-  - brave-browser
   - corsair-icue
   - dashlane
   - discord
   - disk-inventory-x
   - docker
   - docker-toolbox
-  - drivethrurpg
   - dropbox
   - evernote
   - flux
@@ -100,7 +97,6 @@ homebrew_cask_apps:
   - protonvpn
   - roon
   - simplenote
-  - slack
   - spectacle 
   - the-unarchiver
   - transmit
@@ -108,11 +104,7 @@ homebrew_cask_apps:
   - tuxera-ntfs
   - vagrant
   - vagrant-manager
-  - virtualbox
-  - visual-studio-code
   - vlc
-  - vmware-fusion
-  - whatsapp
   - zoomus
 
 # See `geerlingguy.mas` role documentation for usage instructions.
@@ -121,11 +113,8 @@ mas_installed_apps:
   - { id: 1295203466, name: "Microsoft Remote Desktop" }
   - { id: 913724705, name: "Disk Care" }
   - { id: 1464122853, name: "NextDNS" }
-  - { id: 568494494, name: "Pocket" }
   - { id: 1091189122, name: "Bear" }
-  - { id: 1384080005, name: "Tweetbot" }
   - { id: 1508343025, name: "Mimir" }
-  - { id: 1289197285, name: "MindNode – Mind Map" }
 
 osx_script: "~/.osx --no-restart"
 
