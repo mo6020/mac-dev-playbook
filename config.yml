@@ -5,13 +5,6 @@ configure_dotfiles: yes
 configure_terminal: yes
 configure_osx: yes
 
-configure_sudoers: no
-sudoers_custom_config: ''
-# Example:
-# sudoers_custom_config: |
-#   # Allow users in admin group to use sudo with no password.
-#   %admin ALL=(ALL) NOPASSWD: ALL
-
 dotfiles_repo: https://github.com/mo6020/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Repositories/Dotfiles
@@ -61,11 +54,6 @@ homebrew_installed_packages:
   - vault
   - wget
 
-homebrew_taps:
-  - homebrew/core
-  - homebrew/cask
-  - homebrew/cask-drivers
-
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - adobe-creative-cloud
@@ -76,16 +64,13 @@ homebrew_cask_apps:
   - discord
   - disk-inventory-x
   - docker
-  - docker-toolbox
   - dropbox
   - evernote
   - flux
   - focusrite-control
-  - fujifilm-x-webcam
+  - ghostty
   - google-chrome
-  - google-drive-file-stream
   - gpg-suite
-  - iterm2
   - macdown
   - macvim
   - notion
@@ -96,13 +81,11 @@ homebrew_cask_apps:
   - simplenote
   - spectacle 
   - the-unarchiver
+  - todoist
   - transmit
-  - transmission
   - tuxera-ntfs
-  - vagrant
-  - vagrant-manager
   - vlc
-  - zoomus
+  - zoom
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 
@@ -116,28 +99,8 @@ mas_installed_apps:
 
 osx_script: "~/.osx --no-restart"
 
-# Install packages from other package managers.
-# Note: You are responsible for making sure the required package managers are
-# installed, eg. through homebrew.
-composer_packages: []
-  # - name: drush
-  #   state: present # present/absent, default: present
-  #   version: "^8.1" # default: N/A
-gem_packages: []
-  # - name: bundler
-  #   state: present # present/absent/latest, default: present
-  #   version: "~> 1.15.1" # default: N/A
-npm_packages: []
-  # - name: webpack
-  #   state: present # present/absent/latest, default: present
-  #   version: "^2.6" # default: N/A
 pip_packages:
   - name: powerline-status
   - name: powerline-gitstatus
   - name: rubrik_cdm
-  # - name: mkdocs
-  #   state: present # present/absent/latest, default: present
-  #   version: "0.16.3" # default: N/A
 
-# Glob pattern to ansible task files to run after all other tasks are finished.
-post_provision_tasks: []
