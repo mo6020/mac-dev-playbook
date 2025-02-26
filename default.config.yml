@@ -1,6 +1,4 @@
 ---
-downloads: ~/.ansible-downloads/
-
 configure_dotfiles: true
 configure_terminal: true
 configure_osx: true
@@ -53,8 +51,8 @@ homebrew_installed_packages:
   - node
   - nvm
   - php
+  - pngpaste
   - ssh-copy-id
-  - cowsay
   - readline
   - openssl
   - pv

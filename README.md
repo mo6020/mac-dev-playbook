@@ -54,7 +54,6 @@ You can override any of the defaults configured in `default.config.yml` by creat
 
 ```yaml
 homebrew_installed_packages:
-  - cowsay
   - git
   - go
 
@@ -129,7 +128,6 @@ Packages (installed with Homebrew):
   - nvm
   - php
   - ssh-copy-id
-  - cowsay
   - readline
   - openssl
   - pv
@@ -164,5 +162,5 @@ Check out [Ansible for DevOps](https://www.ansiblefordevops.com/), which teaches
 
 This project was created by [Jeff Geerling](https://www.jeffgeerling.com/) (originally inspired by [MWGriffin/ansible-playbooks](https://github.com/MWGriffin/ansible-playbooks)).
 
-[badge-gh-actions]: https://github.com/geerlingguy/mac-dev-playbook/workflows/CI/badge.svg?event=push
-[link-gh-actions]: https://github.com/geerlingguy/mac-dev-playbook/actions?query=workflow%3ACI
+[badge-gh-actions]: https://github.com/geerlingguy/mac-dev-playbook/actions/workflows/ci.yml/badge.svg
+[link-gh-actions]: https://github.com/geerlingguy/mac-dev-playbook/actions/workflows/ci.yml

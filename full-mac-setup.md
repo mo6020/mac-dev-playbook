@@ -18,9 +18,9 @@ Before starting, I completed Apple's mandatory macOS setup wizard (creating a lo
     - Open Photos and make sure iCloud sync options are correct
     - Open Music, make sure computer is authorized, and set Library sync options
     - Open Dropbox, sign in, and set up sync
-  - Install old-fashioned apps:
-    - Install [Creative Cloud](https://creativecloud.adobe.com/apps/download/creative-cloud)
-      - Install Photoshop/Illustrator manually
+  - Install or complete setup for old-fashioned apps:
+    - Open Creative Cloud, sign in, and install needed apps
+    - Open iStat Menus and configure CPU/Net/Temp Combined view
     - (If required:)
       - Install [Elgato Stream Deck](https://www.elgato.com/en/downloads)
         - Open Livestream profile inside `~/Dropbox/Apps/Config/Stream Deck`
@@ -28,30 +28,32 @@ Before starting, I completed Apple's mandatory macOS setup wizard (creating a lo
       - Install [Autodesk Fusion 360](https://www.autodesk.com)
       - Install Microsoft Office Home & Student 2019 (https://account.microsoft.com/services/)
       - Install [Fritzing](https://fritzing.org/download/)
-      - Install Meshmixer (but it looks like it's gone now!)
   - Configure FastMail account:
     - Log into Fastmail
     - Go to settings, go to the setup page for macOS Mail
     - Download the profile and double click to install
     - Head to the 'Profiles' System Preference pane and click install
-  - Open Calendar and enable personal  Google CalDAV account (you have to manually sign in).
+  - Open Calendar and sign into Google Accounts (have to manually sign in):
+    - Personal
+    - Work
   - Manually copy `~/Development` folder from another Mac (to save time).
   - Manual settings to automate someday:
     - System Preferences:
       - Accessibility > Display > Reduce transparency
-      - Keyboard > Modifier Keys... > Caps Lock to Esc
+      - Keyboard > Keyboard Shortcuts... > Modifier Keys... > Caps Lock to Esc
     - Safari:
       - View > Show Status Bar
       - Preferences > Advanced > "Show full website address"
-      - Preferences > Advanced > "Show Develop menu in menu bar"
+      - Preferences > Advanced > "Show features for web developers"
+      - Install the 'Return YouTube Dislike' Userscript in Userscripts
     - Dock:
-      - Add jgeerling, Downloads, Applications, and Video Projects folders
+      - Add jgeerling, Downloads, and Applications folders
     - Terminal:
       - Preferences > Profiles > Set JJG-Term as the default theme
   - _After Dropbox Sync completes_: Run the playbook with `--tags post` to complete setup.
   - Symlink the synchronized `config.yml` into the playbook dir: `ln -s /Users/jgeerling/Dropbox/Apps/Config/mac-dev-playbook/config.yml /Users/jgeerling/Development/mac-dev-playbook/config.yml`
   - These things might be automatable, but I do them manually right now:
-    - Configure Time Machine backup drive and [Time Machine Editor](https://tclementdev.com/timemachineeditor/) (if needed)
+    - Configure Time Machine backup drive and set Time Machine backups to daily instead of hourly
     - Install Wireguard from App Store and add configuration (if needed)
 
 ## To Wrap in Post-provision automation
