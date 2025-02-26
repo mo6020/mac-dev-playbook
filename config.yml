@@ -96,6 +96,7 @@ mas_installed_apps:
   - { id: 1091189122, name: "Bear" }
   - { id: 1508343025, name: "Mimir" }
   - { id: 634148309, name: "Logic Pro"}
+  - { id: 634148309, name: "UpNote"}
 
 osx_script: "~/.osx --no-restart"
 
