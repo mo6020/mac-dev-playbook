@@ -65,6 +65,7 @@ homebrew_cask_apps:
   - disk-inventory-x
   - docker
   - dropbox
+  - elgato-control-center
   - evernote
   - flux
   - focusrite-control
@@ -79,7 +80,8 @@ homebrew_cask_apps:
   - protonvpn
   - roon
   - simplenote
-  - spectacle 
+  - spectacle
+  - superhuman
   - the-unarchiver
   - todoist
   - transmit
