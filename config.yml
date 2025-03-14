@@ -26,12 +26,12 @@ homebrew_installed_packages:
   - chrome-cli
   - coreutils
   - findutils
-  - fio 
-  - git 
+  - fio
+  - git
   - git-credential-manager
   - gnupg
   - gnutls
-  - go 
+  - go
   - google-cloud-sdk
   - jq
   - httpie
@@ -92,13 +92,13 @@ homebrew_cask_apps:
 # See `geerlingguy.mas` role documentation for usage instructions.
 
 mas_installed_apps:
-  - { id: 1295203466, name: "Microsoft Remote Desktop" }
-  - { id: 913724705, name: "Disk Care" }
-  - { id: 1464122853, name: "NextDNS" }
-  - { id: 1091189122, name: "Bear" }
-  - { id: 1508343025, name: "Mimir" }
-  - { id: 634148309, name: "Logic Pro"}
-  - { id: 634148309, name: "UpNote"}
+  - {id: 1295203466, name: "Microsoft Remote Desktop"}
+  - {id: 913724705, name: "Disk Care"}
+  - {id: 1464122853, name: "NextDNS"}
+  - {id: 1091189122, name: "Bear"}
+  - {id: 1508343025, name: "Mimir"}
+  - {id: 634148309, name: "Logic Pro"}
+  - {id: 634148309, name: "UpNote"}
 
 osx_script: "~/.osx --no-restart"
 
@@ -106,4 +106,3 @@ pip_packages:
   - name: powerline-status
   - name: powerline-gitstatus
   - name: rubrik_cdm
-
